@@ -11,19 +11,23 @@ body{
   background-color: #1e3932;
   display: flex;
   flex-direction: column;
-
   flex-wrap: wrap;
-  border: white solid;
-  margin: 0rem 10rem 0rem;
-  
+  margin: 0 auto;
+  width: 70%;
 }
 
 nav{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:space-between;
+  margin: 1rem 0rem 0rem 1rem;
   width: 100%;
-  border: white solid;
+}
+
+nav h1{
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4rem; 
 }
 
 header{
@@ -31,20 +35,36 @@ header{
   flex-direction: row;
   justify-content: start;
   width: 100%;
-  border: white solid;
+  background-color: lightgrey;
+  padding: 1em;
+  border-radius: .2em;
+  margin-bottom: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: #1e3932;
+  font-weight:600;
 }
 
 .city-list{
   display: flex;
   flex-direction: column;
-
+  border: .1em white solid;
+  border-radius: .2em;
+  height: 22em;
 }
 
-/* .city-item {
-  background-color: #d4e9e2;
+.city-item {
+  background-color: #00754a;
   display: flex;
   flex-direction: row;
-  justify-content: start
-} */
+  justify-content: end;
+  padding: .5em;
+  margin-left: 1em;
+  margin-top: .7em;
+  color: #1e3932;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
 
 /* your code here*/
